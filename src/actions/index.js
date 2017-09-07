@@ -1,8 +1,18 @@
 const actions = {
-  'most-starred': require('./most-starred'),
-  'most-forked': require('./most-forked'),
-  'show-languages': require('./show-languages'),
-  'laugh': require('./laugh'),
+    'trending-stars': require('./trending-stars'),
+    'trending-forks': require('./trending-forks'),
+    'show-languages': require('./show-languages'),
+    'laugh': require('./laugh'),
+}
+
+
+
+
+
+/* call to services */
+if (actions[currentAction]) {
+    console.log('Enter action')
+    replies = await actions[currentAction].default(res, payload)
 }
 
 export default async function handleAction(res, payload) {
