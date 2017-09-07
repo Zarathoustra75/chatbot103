@@ -6,15 +6,6 @@ const actions = {
 }
 
 
-
-
-
-/* call to services */
-if (actions[currentAction]) {
-    console.log('Enter action')
-    replies = await actions[currentAction].default(res, payload)
-}
-
 export default async function handleAction(res, payload) {
   const currentAction = res.action && res.action.slug
   console.log(currentAction)
