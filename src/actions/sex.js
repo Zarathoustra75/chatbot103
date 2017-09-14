@@ -5,8 +5,7 @@ const training = ['Perdre du poids', 'Prendre du poids', 'Me maintenir en forme'
 export default async function exerciseType(res, payload) {
     console.log('EXERCISE TYPE')
 
-    const men = res.getMemory('men')
-    const women = res.getMemory('women')
+    let genders = res.getMemory('gender')
 
     let replies = []
     const started = [
