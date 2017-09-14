@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="437bab71-0d1b-44df-8806-8de4508c8c4c" name="Default" comment="" />
+    <list default="true" id="437bab71-0d1b-44df-8806-8de4508c8c4c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/diet.js" afterPath="$PROJECT_DIR$/src/actions/diet.js" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -24,8 +26,8 @@
       <file leaf-file-name="diet.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/actions/diet.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="330">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -55,6 +57,7 @@
         <option value="$PROJECT_DIR$/src/actions/greetings.js" />
         <option value="$PROJECT_DIR$/src/actions/laugh.js" />
         <option value="$PROJECT_DIR$/src/messages.js" />
+        <option value="$PROJECT_DIR$/src/actions/diet.js" />
       </list>
     </option>
   </component>
@@ -242,7 +245,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11092000" />
+    <option name="totallyTimeSpent" value="11165000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -361,6 +364,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -380,8 +384,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/diet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -13,7 +13,10 @@ export default async function diet(res) {
       value: `Je voudrais manger au ${l}`,
     })
   })
-  replies.push(formatter.formatQuickReplies(quickReplies,res.reply()))
+  replies.push(formatter.
+  formatQuickReplies(quickReplies,res.reply()))
   return replies
 }
+
+
 
