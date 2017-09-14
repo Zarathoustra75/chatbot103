@@ -3,12 +3,14 @@ const actions = {
     'most-forked': require('./most-forked'),
     'show-languages': require('./show-languages'),
     'laugh': require('./laugh'),
+    'get-started': require('./get-started'),
     'exercise': require('./exercise'),
     'exercise-type': require('./exercise-type'),
     'diet': require('./diet'),
     'diet-type': require('./diet-type'),
     'greetings': require('./greetings'),
-
+    'sex': require('./sex'),
+    'goals-type': require('./goals-type'),
 }
 
 
