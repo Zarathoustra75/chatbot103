@@ -11,6 +11,8 @@ export default async function exerciseType(res, payload) {
     const men = res.getMemory('men')
     const women = res.getMemory('women')
 
+    const marc = []
+
 
     let response = ""
     const replies = []
@@ -148,6 +150,7 @@ export default async function exerciseType(res, payload) {
             link: c.urlVideo,
         })
     })
+
         replies.push(formatter.formatCardsReplies(cardsReplies))
     return replies
 }
