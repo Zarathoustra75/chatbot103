@@ -17,6 +17,7 @@ export default async function yes(res, payload) {
         `Bonjour ${first_name} !`,
         `Salut ${first_name} !`,
         `Hey ${first_name}  ;)`,
+        `Yo ${first_name}  ;)`,
 
     ]
 
