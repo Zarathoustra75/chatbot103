@@ -18,7 +18,7 @@ export default async function exerciseType(res, payload) {
 
     if (men) {
         if (home) {
-            response = "Très bien vous avez choisi de faire du sport chez vous"
+            response = "Très bien tu as choisi de faire du sport chez toi !"
             cards = [
                 {
                     name: 'EXERCISE NAME1',
@@ -37,7 +37,7 @@ export default async function exerciseType(res, payload) {
                 },
             ]
         } else if (indoor) {
-            response = "Très bien vous avez choisi de faire du sport en interieur"
+            response = "Très bien tu as choisi de faire du sport en intérieur !"
             cards = [
                 {
                     name: 'EXERCISE NAME1',
@@ -56,7 +56,7 @@ export default async function exerciseType(res, payload) {
                 },
             ]
         } else if (outdoor) {
-            response = "Très bien vous avez choisi de faire du sport en exterieur"
+            response = "Très bien tu as choisi de faire du sport en extérieur !"
             cards = [
                 {
                     name: 'EXERCISE NAME1',
