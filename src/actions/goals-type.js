@@ -2,7 +2,6 @@ const agent = require('superagent-promise')(require('superagent'), Promise)
 const formatter = require('../formatter')
 let replies = []
 
-
 export default async function exerciseType(res, payload) {
     console.log('GOAL TYPE')
 
