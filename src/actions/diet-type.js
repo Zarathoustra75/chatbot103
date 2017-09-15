@@ -8,6 +8,7 @@ export default async function dietType(res, payload) {
     const lunch = res.getMemory('lunch')
     const snacks = res.getMemory('snacks')
     const dinner = res.getMemory('dinner')
+
     const men = res.getMemory('men')
     const women = res.getMemory('women')
 
@@ -15,8 +16,10 @@ export default async function dietType(res, payload) {
     let response = ""
     const replies = []
     let cards = []
-    if (breakfast && men) {
-        response = "Tres bien vous avez choisi de prendre un petit dejeuner"
+
+    if (men) {
+        if(breakfast){
+        response = "Tres bien vous avez choisi de prendre un petit déjeuner"
         cards = [
             {
                 name: 'EXERCISE NAME1 mens',
@@ -33,65 +36,147 @@ export default async function dietType(res, payload) {
                 urlVideo: 'https://youtube.com',
                 urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
             },
-        ]
-    } else if (breakfast && women) {
-        response = "Tres bien vous avez choisi de prendre un snack"
-        cards = [
-            {
-                name: 'EXERCISE NAME1 women',
-                urlVideo: 'https://youtube.com',
-                urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
-            },
-            {
-                name: 'EXERCISE NAME2',
-                urlVideo: 'https://youtube.com',
-                urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
-            },
-            {
-                name: 'EXERCISE NAME3',
-                urlVideo: 'https://youtube.com',
-                urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
-            },
-        ]
-    } else if (lunch && women) {
-        response = "Tres bien vous avez choisi de prendre un dejeuner"
-        cards = [
-            {
-                name: 'EXERCISE NAME1 women',
-                urlVideo: 'https://youtube.com',
-                urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
-            },
-            {
-                name: 'EXERCISE NAME2',
-                urlVideo: 'https://youtube.com',
-                urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
-            },
-            {
-                name: 'EXERCISE NAME3',
-                urlVideo: 'https://youtube.com',
-                urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
-            },
-        ]
-    } else if (lunch && men) {
-        response = "Tres bien vous avez choisi de prendre un diner"
-        cards = [
-            {
-                name: 'EXERCISE NAME1 menss',
-                urlVideo: 'https://youtube.com',
-                urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
-            },
-            {
-                name: 'EXERCISE NAME2',
-                urlVideo: 'https://youtube.com',
-                urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
-            },
-            {
-                name: 'EXERCISE NAME3',
-                urlVideo: 'https://youtube.com',
-                urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
-            },
-        ]
+        ]}
+        else if(lunch){
+            response = "Tres bien vous avez choisi de prendre un déjeuner"
+            cards = [
+                {
+                    name: 'EXERCISE NAME1 mens',
+                    urlVideo: 'https://youtube.com',
+                    urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
+                },
+                {
+                    name: 'EXERCISE NAME2',
+                    urlVideo: 'https://youtube.com',
+                    urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
+                },
+                {
+                    name: 'EXERCISE NAME3',
+                    urlVideo: 'https://youtube.com',
+                    urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
+                },
+            ]}
+        else if(snacks){
+            response = "Tres bien vous avez choisi de prendre un encas"
+            cards = [
+                {
+                    name: 'EXERCISE NAME1 mens',
+                    urlVideo: 'https://youtube.com',
+                    urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
+                },
+                {
+                    name: 'EXERCISE NAME2',
+                    urlVideo: 'https://youtube.com',
+                    urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
+                },
+                {
+                    name: 'EXERCISE NAME3',
+                    urlVideo: 'https://youtube.com',
+                    urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
+                },
+            ]}
+        else if(dinner){
+            response = "Tres bien vous avez choisi de prendre un diner"
+            cards = [
+                {
+                    name: 'EXERCISE NAME1 mens',
+                    urlVideo: 'https://youtube.com',
+                    urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
+                },
+                {
+                    name: 'EXERCISE NAME2',
+                    urlVideo: 'https://youtube.com',
+                    urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
+                },
+                {
+                    name: 'EXERCISE NAME3',
+                    urlVideo: 'https://youtube.com',
+                    urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
+                },
+            ]}
+    } else if (women) {
+        if (breakfast) {
+            response = "Tres bien vous avez choisi de prendre un petit dejeuner"
+            cards = [
+                {
+                    name: 'EXERCISE NAME1 mens',
+                    urlVideo: 'https://youtube.com',
+                    urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
+                },
+                {
+                    name: 'EXERCISE NAME2',
+                    urlVideo: 'https://youtube.com',
+                    urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
+                },
+                {
+                    name: 'EXERCISE NAME3',
+                    urlVideo: 'https://youtube.com',
+                    urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
+                },
+            ]
+        }
+        else if (lunch) {
+            response = "Tres bien vous avez choisi de prendre un dejeuner"
+            cards = [
+                {
+                    name: 'EXERCISE NAME1 mens',
+                    urlVideo: 'https://youtube.com',
+                    urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
+                },
+                {
+                    name: 'EXERCISE NAME2',
+                    urlVideo: 'https://youtube.com',
+                    urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
+                },
+                {
+                    name: 'EXERCISE NAME3',
+                    urlVideo: 'https://youtube.com',
+                    urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
+                },
+            ]
+        }
+        else if (snacks) {
+            response = "Tres bien vous avez choisi de prendre un encas"
+            cards = [
+                {
+                    name: 'EXERCISE NAME1 mens',
+                    urlVideo: 'https://youtube.com',
+                    urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
+                },
+                {
+                    name: 'EXERCISE NAME2',
+                    urlVideo: 'https://youtube.com',
+                    urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
+                },
+                {
+                    name: 'EXERCISE NAME3',
+                    urlVideo: 'https://youtube.com',
+                    urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
+                },
+            ]
+        }
+        else if (dinner) {
+            response = "Tres bien vous avez choisi de prendre un diner"
+            cards = [
+                {
+                    name: 'EXERCISE NAME1 mens',
+                    urlVideo: 'https://youtube.com',
+                    urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
+                },
+                {
+                    name: 'EXERCISE NAME2',
+                    urlVideo: 'https://youtube.com',
+                    urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
+                },
+                {
+                    name: 'EXERCISE NAME3',
+                    urlVideo: 'https://youtube.com',
+                    urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
+                },
+            ]
+        }
     }
+
     replies.push(formatter.formatMsg(response))
 
     const cardsReplies = []
