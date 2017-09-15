@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="437bab71-0d1b-44df-8806-8de4508c8c4c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/diet-type.js" afterPath="$PROJECT_DIR$/src/actions/diet-type.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/exercise-type.js" afterPath="$PROJECT_DIR$/src/actions/exercise-type.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/goals-type.js" afterPath="$PROJECT_DIR$/src/actions/goals-type.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/sex.js" afterPath="$PROJECT_DIR$/src/actions/sex.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,31 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="diet-type.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="diet-type.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/actions/diet-type.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5210">
-              <caret line="139" column="45" lean-forward="false" selection-start-line="139" selection-start-column="45" selection-end-line="139" selection-end-column="45" />
+            <state relative-caret-position="195">
+              <caret line="13" column="44" lean-forward="false" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exercise-type.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="exercise-type.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/actions/exercise-type.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2280">
-              <caret line="152" column="10" lean-forward="true" selection-start-line="139" selection-start-column="4" selection-end-line="152" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="greetings.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/actions/greetings.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="91">
+              <caret line="84" column="84" lean-forward="false" selection-start-line="84" selection-start-column="84" selection-end-line="84" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -107,8 +94,8 @@
         <option value="$PROJECT_DIR$/src/actions/sex.js" />
         <option value="$PROJECT_DIR$/src/actions/greetings.js" />
         <option value="$PROJECT_DIR$/src/actions/goals-type.js" />
-        <option value="$PROJECT_DIR$/src/actions/exercise-type.js" />
         <option value="$PROJECT_DIR$/src/actions/diet-type.js" />
+        <option value="$PROJECT_DIR$/src/actions/exercise-type.js" />
       </list>
     </option>
   </component>
@@ -299,7 +286,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32382000" />
+    <option name="totallyTimeSpent" value="33807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -468,14 +455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/goals-type.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -492,18 +471,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/exercise-type.js">
+    <entry file="file://$PROJECT_DIR$/src/actions/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2280">
-          <caret line="152" column="10" lean-forward="true" selection-start-line="139" selection-start-column="4" selection-end-line="152" selection-end-column="10" />
+        <state relative-caret-position="180">
+          <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/diet-type.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5210">
-          <caret line="139" column="45" lean-forward="false" selection-start-line="139" selection-start-column="45" selection-end-line="139" selection-end-column="45" />
+        <state relative-caret-position="195">
+          <caret line="13" column="44" lean-forward="false" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/exercise-type.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="84" column="84" lean-forward="false" selection-start-line="84" selection-start-column="84" selection-end-line="84" selection-end-column="84" />
           <folding />
         </state>
       </provider>
