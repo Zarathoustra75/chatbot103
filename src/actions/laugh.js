@@ -1,4 +1,3 @@
-
 const agent = require('superagent-promise')(require('superagent'), Promise)
 const formatter = require('../formatter')
 

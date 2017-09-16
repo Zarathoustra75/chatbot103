@@ -3,17 +3,17 @@ const formatter = require('../formatter')
 const exercises = ['Exterieur', 'Chez moi', 'Salle']
 
 export default async function exercise(res) {
-  console.log('EXERCISE')
+    console.log('EXERCISE')
 
-  const replies = []
-  const quickReplies = []
-  exercises.forEach((l) => {
-    quickReplies.push({
-      name: l,
-      value: `Je veux faire du sport en ${l}`,
+    const replies = []
+    const quickReplies = []
+    exercises.forEach((l) => {
+        quickReplies.push({
+            name: l,
+            value: `Je veux faire du sport en ${l}`,
+        })
     })
-  })
-  replies.push(formatter.formatQuickReplies(quickReplies,res.reply()))
-  return replies
+    replies.push(formatter.formatQuickReplies(quickReplies, res.reply()))
+    return replies
 }
 

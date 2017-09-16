@@ -1,4 +1,3 @@
-
 const agent = require('superagent-promise')(require('superagent'), Promise)
 const formatter = require('../formatter')
 const gender = ['Homme', 'Femme']
@@ -23,6 +22,6 @@ export default async function yes(res, payload) {
             value: `${l}`,
         })
     })
-    replies.push(formatter.formatQuickReplies(quickReplies,res.reply()))
+    replies.push(formatter.formatQuickReplies(quickReplies, res.reply()))
     return replies
 }

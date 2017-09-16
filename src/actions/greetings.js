@@ -6,7 +6,7 @@ export default async function yes(res, payload) {
 
     let replies = []
     let data = await agent('GET', 'https://graph.facebook.com/v2.6/' + res.conversationToken + '/')
-            .query({ fields: 'first_name,last_name,gender', access_token: process.env.FBGRAPH_TOKEN })
+        .query({fields: 'first_name,last_name,gender', access_token: process.env.FBGRAPH_TOKEN})
 
     data = JSON.parse(data.text)
 
