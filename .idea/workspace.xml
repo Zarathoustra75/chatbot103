@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="437bab71-0d1b-44df-8806-8de4508c8c4c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/diet-type.js" afterPath="$PROJECT_DIR$/src/actions/diet-type.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/diet.js" afterPath="$PROJECT_DIR$/src/actions/diet.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/exercise-type.js" afterPath="$PROJECT_DIR$/src/actions/exercise-type.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/exercise.js" afterPath="$PROJECT_DIR$/src/actions/exercise.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/get-started.js" afterPath="$PROJECT_DIR$/src/actions/get-started.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/greetings.js" afterPath="$PROJECT_DIR$/src/actions/greetings.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/index.js" afterPath="$PROJECT_DIR$/src/actions/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/laugh.js" afterPath="$PROJECT_DIR$/src/actions/laugh.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/most-forked.js" afterPath="$PROJECT_DIR$/src/actions/most-forked.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/most-starred.js" afterPath="$PROJECT_DIR$/src/actions/most-starred.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/show-languages.js" afterPath="$PROJECT_DIR$/src/actions/show-languages.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,11 +43,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exercise-type.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="exercise-type.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/actions/exercise-type.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3972">
+            <state relative-caret-position="5880">
               <caret line="392" column="30" lean-forward="true" selection-start-line="392" selection-start-column="30" selection-end-line="392" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="diet-type.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/actions/diet-type.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="514" column="44" lean-forward="false" selection-start-line="514" selection-start-column="44" selection-end-line="514" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -268,7 +287,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35876000" />
+    <option name="totallyTimeSpent" value="35340000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -411,6 +430,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/sex.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/show-languages.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -439,6 +466,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/exercise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="10" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -479,14 +514,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+    <entry file="file://$PROJECT_DIR$/src/actions/exercise-type.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5880">
+          <caret line="392" column="30" lean-forward="true" selection-start-line="392" selection-start-column="30" selection-end-line="392" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/exercise-type.js">
+    <entry file="file://$PROJECT_DIR$/src/actions/diet-type.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3972">
-          <caret line="392" column="30" lean-forward="true" selection-start-line="392" selection-start-column="30" selection-end-line="392" selection-end-column="30" />
+        <state relative-caret-position="176">
+          <caret line="514" column="44" lean-forward="false" selection-start-line="514" selection-start-column="44" selection-end-line="514" selection-end-column="44" />
           <folding />
         </state>
       </provider>
