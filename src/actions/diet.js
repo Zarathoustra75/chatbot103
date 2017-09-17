@@ -2,6 +2,8 @@ const agent = require('superagent-promise')(require('superagent'), Promise)
 const formatter = require('../formatter')
 const repas = ['Petit Déjeuner', 'Déjeuner', 'Encas', 'Dîner']
 
+import goalsType from './goals-type'
+
 export default async function diet(res) {
     console.log('DIET')
 
@@ -26,8 +28,12 @@ export default async function diet(res) {
         replies.push(formatter.formatQuickReplies(quickReplies, res.reply()))
 
     }else{
-        replies.push(formatter.formatMsg("Pas de précipitation !"))    
-        replies.push(formatter.formatMsg(res.reply()))
+        replies.push(formatter.formatMsg("Pas de précipitation !"))  
+
+        let subreplies = await goalsType(res)
+        subreplies.forEach((l) => {
+            replies.push(l)
+        })
     }
 
     return replies

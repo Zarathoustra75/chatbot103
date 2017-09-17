@@ -2,6 +2,8 @@ const agent = require('superagent-promise')(require('superagent'), Promise)
 const formatter = require('../formatter')
 const exercises = ['En Extérieur', 'Chez Moi', 'En Salle']
 
+import goalsType from './goals-type'
+
 export default async function exercise(res) {
     console.log('EXERCISE')
 
@@ -27,7 +29,11 @@ export default async function exercise(res) {
 
     }else{
         replies.push(formatter.formatMsg("Pas de précipitation !"))    
-        replies.push(formatter.formatMsg(res.reply()))
+        
+        let subreplies = await goalsType(res)
+        subreplies.forEach((l) => {
+            replies.push(l)
+        })
     }
 
     return replies
