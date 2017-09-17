@@ -7,7 +7,7 @@ const req = new request(process.env.REQUEST_TOKEN, process.env.LANGUAGE)
 export async function replyMessage(message) {
   console.log('\n**********************************************************')
   try {
-    console.log('MESSAGE RECEIVED', message)
+      console.log('MESSAGE RECEIVED', message)
     let text = message.content
     const { senderId } = message
 

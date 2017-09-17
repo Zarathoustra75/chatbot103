@@ -1,16 +1,16 @@
 const agent = require('superagent-promise')(require('superagent'), Promise)
 const formatter = require('../formatter')
-const languages = ['Asssembly', 'C', 'C++', 'Go', 'Java', 'JavaScript', 'Python', 'Ruby', 'Rust', 'Swift',]
+const exercises = ['Exterieur', 'Chez moi', 'Salle']
 
-export default async function showLanguage(res) {
-    console.log('SHOW LANGUAGE')
+export default async function exercise(res) {
+    console.log('EXERCISE')
 
     const replies = []
     const quickReplies = []
-    languages.forEach((l) => {
+    exercises.forEach((l) => {
         quickReplies.push({
             name: l,
-            value: `Top starred repos in ${l}`,
+            value: `Je veux faire du sport en ${l}`,
         })
     })
     replies.push(formatter.formatQuickReplies(quickReplies, res.reply()))

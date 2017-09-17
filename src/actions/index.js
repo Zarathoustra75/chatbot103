@@ -1,6 +1,6 @@
 const actions = {
-    'trending-stars': require('./trending-stars'),
-    'trending-forks': require('./trending-forks'),
+    'most-starred': require('./most-starred'),
+    'most-forked': require('./most-forked'),
     'show-languages': require('./show-languages'),
     'laugh': require('./laugh'),
 }
@@ -21,7 +21,7 @@ export default async function handleAction(res, payload) {
   } else {
     replies.push({
       type: 'text',
-      content: 'Sorry I did not understand',
+      content: 'Désolé, je n\'ai pas compris',
     })
   }
   return replies
