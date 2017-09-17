@@ -2,7 +2,7 @@ const agent = require('superagent-promise')(require('superagent'), Promise)
 const formatter = require('../formatter')
 
 
-export default async function yes(res, payload) {
+export default async function laugh(res, payload) {
     console.log('LAUGH')
 
     const replies = []

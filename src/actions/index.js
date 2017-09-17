@@ -1,5 +1,5 @@
 const actions = {
-    //'goals-type': require('./goals-type'),
+    'goals-type': require('./goals-type'),
     'exercise': require('./exercise'),
     'exercise-type': require('./exercise-type'),
     'diet': require('./diet'),
