@@ -20,7 +20,7 @@ export default async function goalsType(res) {
     }else if(!bodySlim && !bodyMaintain && !moreMuscle){
       response = "Veux tu gagner en masse, perdre du poids, ou simplement rester en forme ? :)"
     }else{
-      response = "J'ai toutes les informations qu'il me faut ! Veux-tu faire de l'exercice ? Ou préfères-tu une idée de recette diététique ?"
+      response = "J'ai toutes les informations qu'il me faut ! Veux-tu faire de l'exercice ? Ou préfères-tu une idée de recette ?"
     }
 
     replies.push(formatter.formatMsg(response))

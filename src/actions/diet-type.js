@@ -41,7 +41,7 @@ export default async function dietType(res, payload) {
                     {
                         name: 'Petit-déjeuner pour bien commencer la semaine',
                         urlVideo: 'https://www.youtube.com/watch?v=WC3k-aUgOhY',
-                        urlImage: 'http://liezljayne.com/wp-content/uploads/2017/04/IMG_1918.jpg'
+                        urlImage: 'http://img.taste.com.au/qkhi315n/w720-h480-cfill-q80/taste/2016/11/oat-and-berry-acai-bowl-104111-1.jpeg'
                     },
                 ]
             }else if(bodyMaintain) {
@@ -65,7 +65,7 @@ export default async function dietType(res, payload) {
             }else if(moreMuscle) {
                 cards = [
                     {
-                        name: 'Le plein de protéines',
+                        name: 'Shake protéiné aux fruits',
                         urlVideo: 'https://www.youtube.com/watch?v=2sk1v8m6ePs',
                         urlImage: 'http://worldhealthsupplements.com/wp-content/uploads/2016/12/Protein-Shakes-For-Gaining-Healthy-Weight-300x160.jpg'
                     },
@@ -88,7 +88,7 @@ export default async function dietType(res, payload) {
                     {
                         name: 'Salade indienne',
                         urlVideo: 'https://www.youtube.com/watch?v=hjSk8w-17nk',
-                        urlImage: 'https://i.ytimg.com/vi/hjSk8w-17nk/hqdefault.jpg'
+                        urlImage: 'http://img.fac.pmdstatic.net/fit/http.3A.2F.2Fwww.2Efemmeactuelle.2Efr.2Fvar.2Ffemmeactuelle.2Fstorage.2Fimages.2Fcuisine.2Frecettes.2Fplat.2Fsalade-de-riz-et-lentilles-a-l-indienne-09367.2F14096413-1-fre-FR.2Fsalade-de-riz-et-lentilles-a-l-indienne.2Ejpg/1200x600/crop-from/center/salade-de-riz-et-lentilles-a-l-indienne.jpeg'
                     },
                     {
                         name: 'Délicieux repas',
@@ -132,7 +132,7 @@ export default async function dietType(res, payload) {
                         urlImage: 'https://incline.media/thumb.php?src=http://incline.media/user_upload/video_thumbs/-sOcVSvv5BU.jpg&w=500'
                     },
                     {
-                        name: 'Repas calorique femme',
+                        name: 'Déjeuner pour prise de masse',
                         urlVideo: 'https://www.youtube.com/watch?v=ioAytDp9ido',
                         urlImage: 'http://img.timeoutbeijing.com/201703/201703241221002.jpg'
                     },
@@ -181,7 +181,7 @@ export default async function dietType(res, payload) {
                     {
                         name: 'Encas hypercaloriques',
                         urlVideo: 'https://www.youtube.com/watch?v=8VjqqNF-LXU',
-                        urlImage: 'http://rbk.h-cdn.co/assets/16/49/980x490/gallery-1480993497-cereal-mix.jpg'
+                        urlImage: 'http://www.leseclaireuses.com/ec_content/mathilde/20160314-encas-14316_2.jpg'
                     },
                     {
                         name: 'Encas sains et caloriques',
@@ -191,7 +191,7 @@ export default async function dietType(res, payload) {
                     {
                         name: 'Encas pour rester en forme',
                         urlVideo: 'https://www.youtube.com/watch?v=tS6Te33k1qM',
-                        urlImage: 'https://i.pinimg.com/236x/e8/cb/02/e8cb0296690268611c57a0dae092be56--healthy-snacks-fit.jpg'
+                        urlImage: 'http://cache.marieclaire.fr/data/photo/w1000_ci/4u/recette-healthy-snacks-enfant.jpg'
                     },
                 ]
             }
