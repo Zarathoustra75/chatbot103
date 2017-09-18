@@ -263,19 +263,19 @@ export default async function exerciseType(res, payload) {
                 if(men) {
                     cards = [
                         {
-                            name: 'EXERCISE NAME14',
-                            urlVideo: 'https://youtube.com',
-                            urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
+                            name: 'Perte de poids',
+                            urlVideo: 'https://www.youtube.com/watch?v=dlantbhXp4Y',
+                            urlImage: 'https://i.ytimg.com/vi/dlantbhXp4Y/hqdefault.jpg'
                         },
                         {
-                            name: 'EXERCISE NAME2',
-                            urlVideo: 'https://youtube.com',
-                            urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
+                            name: 'Abdos en béton',
+                            urlVideo: 'https://www.youtube.com/watch?v=tgkqyJp8gu4',
+                            urlImage: 'http://thenx.com/newDesign/images/trainer_1.png'
                         },
                         {
-                            name: 'EXERCISE NAME3',
-                            urlVideo: 'https://youtube.com',
-                            urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
+                            name: 'Entraînement jambes',
+                            urlVideo: 'https://www.youtube.com/watch?v=4H920oAfowE',
+                            urlImage: 'https://thenx.com/blog/wp-content/uploads/2017/03/Screen-Shot-2017-03-08-at-12.51.25-PM.png'
                         },
                     ]
                 }else if(women) {
@@ -301,19 +301,19 @@ export default async function exerciseType(res, payload) {
                 if(men) {
                     cards = [
                         {
-                            name: '15',
-                            urlVideo: 'https://youtube.com',
-                            urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
+                            name: 'Débuter le street workout',
+                            urlVideo: 'https://www.youtube.com/watch?v=kIVxdIWy7Eo',
+                            urlImage: 'https://i2.wp.com/video.log3.org/wp-content/uploads/2017/04/start-calisthenics-with-this-workout-thenx.jpg'
                         },
                         {
-                            name: 'EXERCISE NAME2',
-                            urlVideo: 'https://youtube.com',
-                            urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
+                            name: 'Entraînement de squat',
+                            urlVideo: 'https://www.youtube.com/watch?v=flQVCWBuVgk',
+                            urlImage: 'https://i.ytimg.com/vi/flQVCWBuVgk/maxresdefault.jpg'
                         },
                         {
-                            name: 'EXERCISE NAME3',
-                            urlVideo: 'https://youtube.com',
-                            urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
+                            name: 'Entraînement bras et pectoraux',
+                            urlVideo: 'https://www.youtube.com/watch?v=GdISLQcG8BA',
+                            urlImage: 'https://i.ytimg.com/vi/WzFMnRUzYog/hqdefault.jpg'
                         },
                     ]
                 }else if(women) {
@@ -339,19 +339,19 @@ export default async function exerciseType(res, payload) {
                 if(men) {
                     cards = [
                         {
-                            name: '16',
-                            urlVideo: 'https://youtube.com',
-                            urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
+                            name: 'Entraînement dos',
+                            urlVideo: 'https://www.youtube.com/watch?v=tB3X4TjTIes',
+                            urlImage: 'https://i.ytimg.com/vi/2O972NPjM58/hqdefault.jpg'
                         },
                         {
-                            name: 'EXERCISE NAME2',
-                            urlVideo: 'https://youtube.com',
-                            urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
+                            name: 'Entraînement bras et pectoraux',
+                            urlVideo: 'https://www.youtube.com/watch?v=GdISLQcG8BA',
+                            urlImage: 'https://scontent.cdninstagram.com/t51.2885-15/s640x640/e15/c0.89.720.720/16789778_378470315873737_7263425120767574016_n.jpg'
                         },
                         {
-                            name: 'EXERCISE NAME3',
-                            urlVideo: 'https://youtube.com',
-                            urlImage: 'http://www.formeathletique.com/wp-content/uploads/2016/02/exercice-abdominaux2.jpg'
+                            name: 'Entraînement full body',
+                            urlVideo: 'https://www.youtube.com/watch?v=sYZHBc8ItSs',
+                            urlImage: 'https://i.pinimg.com/736x/84/07/11/84071168a68ae3c81873f904529adca9--full-body-watches.jpg'
                         },
                     ]
                 }else if(women) {
