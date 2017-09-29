@@ -1,9 +1,5 @@
 # Sports Coach Bot for Facebook Messenger using Recast.AI
 
-A [Github](https://github.com/)-powered bot using [Recast.AI](https://recast.ai) NLP
-
-Follow the instructions below to create your own instance of the bot:
-
 Getting Started
 --------------------
 
@@ -13,12 +9,12 @@ Clone the repository
 
 Create file: `touch src/actions/config.js`
 
-Copy/Paste the following code to config your bot
+Copy/Paste the following code to the file config.js with your parameters
 
 ```
-process.env.REQUEST_TOKEN = ''
-process.env.LANGUAGE = ''
-process.env.PORT = ''
+process.env.REQUEST_TOKEN = 'YOUR_RECAST_TOKEN'
+process.env.LANGUAGE = 'EN_OR_FR'
+process.env.PORT = '5000_IS_DEFAULT_PORT_NUMBER'
 ```
 
 Running
