@@ -9,7 +9,7 @@ Getting Started
 
 Clone the repository
 
-`git clone https://github.com/plieb/chatbot103.git`
+`git clone https://github.com/Zarathoustra75/chatbot103`
 
 Create file: `touch src/actions/config.js`
 
@@ -29,4 +29,4 @@ Running
 More informations and demo
 --------------------
 
-[http://davidfradel.fr/hulk_projet.html(http://davidfradel.fr/hulk_projet.html)
+http://davidfradel.fr/hulk_projet.html
