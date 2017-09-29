@@ -9,7 +9,7 @@ Getting Started
 
 Clone the repository
 
-`git clone https://github.com/Zarathoustra75/chatbot103`
+`git clone https://github.com/Zarathoustra75/hulk-bot.git`
 
 Create file: `touch src/actions/config.js`
 
